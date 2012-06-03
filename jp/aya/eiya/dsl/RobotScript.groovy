@@ -1,1 +1,1 @@
-robot.move(Direction.left)
+robot.move left
