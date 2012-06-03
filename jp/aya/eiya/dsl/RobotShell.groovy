@@ -1,5 +1,5 @@
 Binding binding = new Binding([
-                  robot:new Robot(),
+                  move:new Robot().&move,
                   *:Direction.values()
                                 .collectEntries{
                                   [(it.name()):it]
