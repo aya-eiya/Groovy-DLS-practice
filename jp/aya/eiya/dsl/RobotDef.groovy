@@ -7,6 +7,3 @@ class Robot{
     println "$this moved to $direction"
   }
 }
-
-def robot = new Robot()
-robot.move(Direction.left)
